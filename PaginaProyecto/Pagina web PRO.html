@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Mariana\Documents\Pagina Proyecto\Style.css"/>
+    <title>Aprende HTML y CSS</title>
+</head>
+
+<body background="p0fPUI.jpg" >
+    <div id="block1">
+        <h2>Aprende HTML y CSS</h2>
+        <p> by<em> Mariana GM |
+            <a href=""class="comments">Comments</a> |
+            <a href=""class="Cat"> Categories</a> |
+            <a href="">February</a></em>
+        </p>
+    </div> 
+   <section class="MiPagina">
+       <p id="Desc"><strong>En esta pagina aprenderemos a utilizar algunas de los diferentes 
+           tipos de etiquetas que existen en el mundo de HTML y CSS de una manera sencilla y entretenida :)!</strong> </p>
+             </section> 
+             <div class="HTMLB">
+               <p id="h"><strong></strong>H</p>
+               <p id="t">T</p>
+               <p id="m">M</p>
+               <p id="l">L</p>
+           </div>
+        
+        <div class="CSSB">
+            <p id="c">C</p>
+            <p id="s">S</p>
+            <p id="ss">S</p>
+        </div>
+ 
+        <section class="HTML">
+                <h2 id="html"><strong>-HTML-</strong></h2>
+                <p>Para comenzar veremos algunos conceptos básicos que hay que conocer sobre HTML,
+                y estas siglas significan HypeText Makeup Lenguage, osea lenguaje marcado de texto.</p>
+
+    <div class="etiquetas">
+        <h3><strong>Etiquetas</strong></h3> 
+        <p>¿Para que sirven estas etiquetas?</p>
+        <ul>
+        <li><strong>"!DOCTYPE html"</strong>,</li>
+        <li><strong>"heade"</strong>, de una forma resumida este se encarga de poner la informacion adicional que deaseas poner en tu código</li>
+        <li><strong>"title"</strong>, El el titulo de tu pagina, lo que aparecera en la pestaña de la pagina web.</li>
+        <li><strong>"body"</strong>, Aqui se ponen los contenidos visibles de nuestro codigo.</li>
+        <li><strong>"h1"</strong>, Este nos sirve para poner dentro de el un texto. Siempre va dentro del body</li>
+        <li>La <strong>"p"</strong> es de paragraph y puedes escribir lo que quieres que en tu pagina se vea. Como por ejemplo
+            esta parte del codigo esta mediante un "p".</li>
+        </ul>
+        <h4><strong>Tablas</strong></h4>
+        <p>Para la crear una tabla necesitaremos utilizar la etiqueta "table" y 
+            en este se encuentran otras etiquetas como el tb, th y tr.</p>
+        <p>La etiqueta <strong>"th"</strong> funciona de la misma forma que la etiqueta "td" pero esta
+        etiqueta tiene la diferencia que su contenido está considerado como el encabezado de la tabla.</p>
+        <p><strong>"tr"</strong> esta etiqueta se utiliza para las filas de una tabla.</p>
+        <p>"td", la etiqueta td se usa para las celdas de la tabla.</p>
+        Como por ejemplo la siguiente tabla:
+        
+        <div id= "tablaanimales" >
+        <table >
+        <caption><strong>Animales</strong></caption>
+        <thead>
+            <th>Salvajes</th>
+            <th>Domesticos</th>
+            </thead>
+        <tbody>
+            <tr>
+                <td>León</td>
+                <td>Perro</td>
+            </tr>
+            <tr>
+                <td>Oso</td>
+                <td>Gato</td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+        </div>
+    <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table" target="blank">Para ver el código de una tabla pulsa aqui</a></p>
+<br> Para poder poner un hipervínculo como el que vimo aqui arriba utilizaremos una nueva etiqueta llamada <strong>"a href"</strong>
+que esta nos permite colocar dentro de este tag el link de la pagina que deseemos donde <strong>"a"</strong> es "anchor" y <strong>"href"</strong> es donde se coloca la referencia.
+<p>Al momento que damos click al hiperviculo, este nos habre en una nueva pestaña este tambien es realizado por el codigo html con la siguiente sintaxis: </p>
+<br><strong>"< a href "--" target "--" >"</strong>
+<p>en target colocaremos un "blank" que este nos indica que será abierta en otro pestaña, si no se escribe nada en el target el programa pondra "self"
+     automaticamente y este hace que se abra en la pagina actual.</p>
+</section>
+   
+    
+    <div class="CSS">
+        <h1 id= "css"><strong>*CSS*</strong></h1>
+        <p>Las siglas de CSS significan Cascading Style Sheets, Hojas de Estilo de Cascadas.
+            Es un lenguaje que describe el estilo de un documento HTML.
+        <br>Existen diferentes tipos de estilos en CSS y estos son:</p>
+        
+        <ul>
+            <li>Inline</li>
+            <li>Interno</li>
+            <li>Externo</li> 
+        </ul>
+  
+        <p><strong>Inline: </strong>Unifica en una declaración todos los estilos para un archivo html</p>
+        <p><strong>Interno: </strong>Esta incorporada a un documento HTML a través del elemento style</p>
+        <p><strong>Externo: </strong>Se almacenan en un archivo diferente al del archivo con el código HTML, el cual estan vinculado mediante 
+            el elemento link</p>
+            <p><br>En <strong>CSS</strong> existen los <strong>selectores</strong> que su funcionamiento es seleccionar
+                 todos los elementos que contendrá la página. Algunos de los selectores son:
+            </p>
+            <ul>
+                <li><strong>Etiqueta:</strong> Este selector esta también común porque su función es seleccionar a todos los elementos 
+                    que contengan la etiqueta HTML. <strong>Sintaxis:</strong> <em>Etiqueta html{ propiedad: valor;}</em></li>
+
+                    <li><strong>Clase:</strong> Sirve para dar estilo sólo a determinados elementos marcados con 
+                    el atributo class y la clase definida. <strong>Sintaxis:</strong><em>.nombreDeLaClase{ propiedad: valor;}</em></li>
+
+                    <li><strong>ID:</strong> Iguales que los anteriores pero para elementos marcados con el atributo id. 
+                        Este se utiliza para marcar un elemento único. 
+                        <strong>Sintaxis: </strong><em>#nombre-del-ID{ propiedad: valor;}</em></li>
+
+                        <li><strong>Descendente:</strong> Selecciona los elementos que se encuentran dentro de otros elementos.
+                            <strong>Sintaxis:</strong><em>selector1 selector2}{ propiedad: valor; }</em></li>
+                        </ul>
+                        <h3 id="pseudoC"><strong>Pseudo Clases:</strong></h3>
+                        <ul>
+                        <li><strong>Link</strong> se aplica a todos los enlaces que todavía no han sido visitados por el usuario.</li>
+                        <li><strong>Visited</strong> se aplica a todos los enlaces que han sido visitados al menos una vez por el usuario.</li>
+                    </ul>
+                        <p id="acciones">A continuación se indican las acciones del usuario que activan cada pseudo-clase: </p>  
+                        <ul> 
+                        <li><strong>:hover:</strong> Se activa cuando el usuario pasa el ratón o cualquier otro elemento apuntador por encima de un elemento.</li>
+                        <li><strong>:active:</strong> Se activa cuando el usuario activa un elemento, por ejemplo cuando pulsa con el ratón sobre un elemento.</li>
+                        <li><strong>:focus:</strong> Se activa cuando el elemento tiene el foco del navegador, es decir, cuando el elemento está seleccionado.</li>
+                    </ul> 
+                    <h3 id="pseudoE">Presudo Elementos</h3>
+                    <p>Los pseudo elementos se añaden a los selectores, pero, a diferencia de las pseudo clases, 
+                        los pseudo elementos no describen un estado sino que permiten añadir estilos a una parte concreta del documento. 
+                        Algunos presudo elementos son:
+                     </p>
+                     <ul>
+                        <li><strong>:first-line:</strong> Permite seleccionar la primera línea de texto de un elemento.</li> 
+                        <li><strong>:first-letter:</strong> Permite seleccionar la primera letra de la primera línea de texto de un elemento.</li>
+                        <li><strong>:before y :after</strong>Se utilizan en combinación con la propiedad content de CSS para añadir contenidos 
+                            antes o después del contenido original de un elemento.</li>
+                        </ul>           
+             </div>
+             <div class="slider">
+                    <ul>
+                        <li>
+          <img src="http://www.idarticle.com/wp-content/uploads/2017/10/Learn-HTML.png" alt="">
+         </li>
+                        <li>
+          <img src="http://big-er.com/big_pic/2015/2727/06.jpg" alt="">
+        </li>
+                        <li>
+          <img src="https://cdn.lynda.com/courses/439683-636441077067564901_270x480_thumb.jpg" alt="">
+        </li>
+                    </ul>
+                </div>
+ </body>
+</html>

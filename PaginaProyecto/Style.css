@@ -1,0 +1,148 @@
+        #block1{
+            background: rgb(213,228,232);
+            border:3px solid rgb(181,202,208);
+            margin:20px 0px;
+            padding:20px;
+        }
+        #block1 h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: normal;
+            text-shadow: 0 0 1px black;
+            color: dimgrey;
+            font-size: 2em;
+            padding:2px 0 0;
+            text-transform: capitalize;
+            line-height:1.2em;
+            margin:0 0 10px;
+            text-align: center;
+        }
+        #block1 p em{
+            columns: #999999;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            letter-spacing: 0.2em;
+            margin:10px 0 20px;
+            text-transform: none;
+            padding-bottom: 10px;
+        }
+        #block1 a{
+            color: #f50077;
+            text-decoration:none;
+        }
+
+        .MiPagina{
+            background-color: rgba(177, 43, 43, 0.253);
+
+            text-align:center;
+            
+                }
+                .MiPagina #NomPag{
+                    color:black;
+                  font-size: 30px;
+                  font-weight: 30px;
+                }
+                .MiPagina #Desc{
+                    color:black;
+                  font-size: 20px;
+                  font-weight: 20px;
+                }
+                .HTMLB{
+                    background: rgb(248, 248, 78);
+                    width:15%;
+                    float:left;
+                    border:1px solid  rgb(248, 248, 78);
+                    height: 2000px;
+                    text-align: center;
+                }
+                .HTMLB #h{
+                    color:rgb(135, 135, 252);
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .HTMLB #t{
+                    color:rgb(75, 203, 226);
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .HTMLB #m{
+                    color: rgb(111, 238, 111);
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .HTMLB #l{
+                    color:rgb(43, 207, 43);
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .CSSB{
+                    background: rgb(248, 248, 78);
+                    width:15%;
+                    height: 2000px;
+                    float:right;
+                    border:1px solid  rgb(248, 248, 78);
+                    text-align: center;
+                }
+                .CSSB #c{
+                    color: pink;
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .CSSB #s{
+                    color: plum;
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .CSSB #ss{
+                    color: orchid;
+                    font-size: 50px;
+                    font-weight: 50px;
+                }
+                .CSSB #pseudo{
+                    color:green;
+                    text-align: center
+                }
+
+              
+              table{
+        width: 15%;
+    }
+    table,
+    tr,
+    th,
+    td{
+        border: 1px solid blueviolet;
+
+    }
+    #tablaanimales{
+        position:relative;
+        border-collapse: collapse; 
+         top: 2px;
+        left: 250px;
+    }
+    .HTML{
+        background-color: antiquewhite;
+        width:49%; 
+        float: left;
+        border: 1px solid black;
+    }
+    .CSS{
+        background-color: aliceblue;
+        width: 49%;
+        float: right;
+        border: 1px solid black;
+    }
+    .CSS #css{
+                  color:black;
+                  font-size: 20px;
+                  font-weight: 20px;
+              }
+
+
+
+              /* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-8/oth720.ani), 
+                url(http://cur.cursors-4u.net/others/oth-4/oth302.png), progress !important;} /* End http://www.cursors-4u.com */
+    .IMG{
+        width: 50%;
+        float: right;
+    }
+    
